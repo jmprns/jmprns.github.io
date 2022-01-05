@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="bg-gray-900">
       <Header />
-      <main id="skip" className="flex flex-col px-8 bg-gray-900">
+      <main id="skip" className="flex flex-col justify-center px-8 bg-gray-900">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
